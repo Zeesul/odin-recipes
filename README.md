@@ -1,0 +1,1 @@
+This project will utilize fundamental HTML skills to create and design a website containing various recipes.
