@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(231,199,162);
+}
+
+h1 {
+    text-align: center;
+    font-family: Papyrus, Arial, sans-serif;
+    font-size: 48px;
+    color: rgb(66,70,97);
+}
+
+h3 {
+    text-align: center;
+    font-family: Papyrus, Arial, sans-serif;
+    font-size: 28px;
+    color: rgb(66,70,97);
+}
+
+.ingredients,
+.desc {
+    text-align: center;
+    font-family: Papyrus, Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(66,70,97);
+}
+
+.steps {
+    text-align: left;
+    font-family: Papyrus, Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(66,70,97);
+}
+
+body ul {
+    text-align: center;
+    list-style-type: none;
+    font-family: Papyrus, Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(66,70,97);
+}
+
+body ul li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: rgb(231,199,162);
+}
+
+a:hover {
+    color: grey;
+}
+
+.image {
+    border: 5px solid rgb(66,70,97); 
+    height: auto;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.button {
+    background-color: rgb(66,70,97);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+.button-art {
+    height: auto;
+    width: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
