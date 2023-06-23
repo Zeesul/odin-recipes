@@ -1,41 +1,29 @@
 body {
-    background-color: rgb(231,199,162);
+    background-color: rgb(231, 199, 162);
 }
 
 h1 {
     text-align: center;
     font-family: Papyrus, Arial, sans-serif;
     font-size: 48px;
-    color: rgb(66,70,97);
+    color: rgb(66, 70, 97);
 }
 
 h3 {
     text-align: left;
     font-family: Papyrus, Arial, sans-serif;
     font-size: 28px;
-    color: rgb(66,70,97);
+    color: rgb(66, 70, 97);
 }
 
 .ingredients,
-.desc {
-    text-align: left;
-    font-family: Papyrus, Arial, sans-serif;
-    font-size: 18px;
-    color: rgb(66,70,97);
-}
-
-.steps {
-    text-align: left;
-    font-family: Papyrus, Arial, sans-serif;
-    font-size: 18px;
-    color: rgb(66,70,97);
-}
-
+.desc,
+.steps,
 body ul {
-    text-align: center;
+    text-align: left;
     font-family: Papyrus, Arial, sans-serif;
     font-size: 18px;
-    color: rgb(66,70,97);
+    color: rgb(66, 70, 97);
 }
 
 body ul li {
@@ -51,25 +39,34 @@ a:link {
 }
 
 a:visited {
-    color: rgb(231,199,162);
+    color: rgb(231, 199, 162);
 }
 
 a:hover {
-    color: grey;
+    color: gray;
 }
 
 .image {
-    border: 5px solid rgb(66,70,97); 
+    border: 5px solid rgb(66, 70, 97);
     height: auto;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    max-width: 45%;
 }
 
+.container {
+    margin-top: 60px;
+}
+
+.button-container {
+    text-align: center;
+}
+  
 .button {
-    background-color: rgb(66,70,97);
+    position: relative;
+    background-color: rgb(66, 70, 97);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -78,14 +75,31 @@ a:hover {
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.4s;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    margin: 10px;
+}
+  
+.button span {
+    display: block;
+}
+
+@keyframes float {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+}
 
 .button-art {
+    position: absolute;
+    top: -50px;
+    left: 45%;
+    transform: translateX(-50%);
     height: auto;
     width: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    animation: float 3s ease-in-out infinite;
 }
