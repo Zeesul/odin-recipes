@@ -61,11 +61,11 @@ a:hover {
 .image {
     border: 5px solid rgb(66,70,97); 
     height: auto;
-    width: 600px;
+    width: auto;
     display: block;
-    margin-left: 335px;
+    margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 45%;
 }
 
 .button {
